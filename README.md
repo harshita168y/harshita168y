@@ -24,6 +24,7 @@ I focus on building systems that **scale, stay reliable under load, and provide 
 | Project | What it shows | Stack |
 |---|---|---|
 | [WebChat (Real-Time Chat System)](https://github.com/harshita168y/webchat) | **C# ASP.NET Core backend** with SignalR for real-time messaging, context-aware AI moderation, soft-delete + violation tracking, deployed on Azure | C#, ASP.NET Core, SignalR, PostgreSQL, Azure |
+| [Resume Analyzer (Chrome Extension)](https://github.com/harshita168y/Resume-Analyzer) | Client-side Chrome extension that scores resume vs JD with **multi-LLM support** (OpenAI, Claude, Gemini, Ollama) — showcases **LLM integration in frontend/backend workflows** | JavaScript, Chrome Extensions API, OpenAI, Anthropic, Gemini, Ollama |
 | [Video + RAG Chatbot](https://github.com/harshita168y/Video-chatbot) | Backend system combining face recognition + long-term memory with vector retrieval for contextual AI responses | Python, FastAPI, Pinecone, InsightFace |
 | [AI-Powered Email Automation](https://github.com/harshita168y/AI-Powered-Email-Automation-Workflow-) | Automated email drafting with human-in-the-loop approval workflow — showcases AI integration in backend automation | n8n, OpenAI, Gmail API |
 | [Exercise Monitoring & Pose Estimation](https://github.com/harshita168y/Exercise-Monitoring-and-Pose-Estimation) | Real-time CV system with state-based rep counting and audio feedback — backend + mobile integration | Kotlin, MediaPipe |
