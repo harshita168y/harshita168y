@@ -1,79 +1,52 @@
-```
-╔══════════════════════════════════════════════════╗
-║   harshita ramesh  ·  backend + ai systems       ║
-╚══════════════════════════════════════════════════╝
-```
+# Harshita Ramesh
 
-i build things that think.
+Backend engineer with a focus on AI integration and real-time systems. I work across the full backend stack — API design, database architecture, ML pipelines, and automation workflows. I like building things that are both technically solid and genuinely useful.
 
-real-time systems, ai pipelines, apis that do more than just return json.
-currently open to backend roles where the problems are interesting.
-
-→ [linkedin](https://www.linkedin.com/in/harshitaramesh0106)
+Open to backend and AI engineering roles.  
+[LinkedIn](https://www.linkedin.com/in/harshitaramesh0106)
 
 ---
 
-### what i work with
+## Projects
 
-```
-languages     C#  ·  Python  ·  Kotlin  ·  TypeScript
-backend       ASP.NET Core 8  ·  FastAPI  ·  SignalR  ·  EF Core
-ai / ml       OpenAI  ·  Gemini  ·  RAG  ·  Pinecone  ·  MediaPipe  ·  InsightFace
-data          PostgreSQL  ·  SQL Server  ·  Pinecone
-other         n8n  ·  Firebase  ·  WebSockets  ·  Docker
-```
+### [Chatzzz](https://github.com/harshita168y/webchat) — AI-moderated real-time chat
+Real-time group chat with context-aware content moderation. Built with SignalR for live messaging and OpenAI to evaluate each message alongside recent conversation history — not just the text in isolation. Flagged messages are soft-deleted, violations are tracked, and repeat offenders are disconnected automatically. Every moderation decision is stored with its score, category, and reasoning.
+
+> ASP.NET Core 8 · SignalR · PostgreSQL · Entity Framework · OpenAI · React Native · TypeScript
 
 ---
 
-### things i've built
+### [Video RAG Chatbot](https://github.com/harshita168y/Video-chatbot) — multimodal assistant with memory
+An AI assistant that recognises faces live via webcam, retrieves relevant past conversations from a vector store, and responds through a local or cloud LLM. Long-term memory is handled through Pinecone embeddings, with optional voice input and output. Built on FastAPI with WebSocket streaming.
 
-**[chatzzz](https://github.com/harshita168y/webchat)** — real-time ai-moderated chat
-
-group chat for anime communities with context-aware moderation built on signalr.
-openai evaluates each message alongside the last 3 in the room — not just the text,
-but the conversation. flagged messages soft-delete, violations stack, repeat offenders
-get disconnected automatically. every moderation decision is logged with score + reason.
-
-`asp.net core 8` `signalr` `postgresql` `openai` `react native` `entity framework`
+> FastAPI · Python · InsightFace · Pinecone · RAG · Ollama · OpenAI · WebSockets
 
 ---
 
-**[video rag chatbot](https://github.com/harshita168y/Video-chatbot)** — face recognition + long-term memory
+### [AI Email Automation](https://github.com/harshita168y/AI-Powered-Email-Automation-Workflow-) — human-in-the-loop workflow
+Intelligent Gmail automation that drafts replies using Gemini, then routes them through a human review step before anything is sent. Reviewers can approve, edit, or reject each draft via a webhook-driven interface. Designed so AI handles the drafting but a human always has the final say.
 
-a multimodal assistant that knows who you are. recognises faces live via webcam,
-pulls relevant past conversations from pinecone, and responds through ollama or openai.
-built on fastapi + websockets. supports voice input and output too.
-
-`fastapi` `python` `insightface` `pinecone` `rag` `ollama` `websockets`
+> n8n · Gmail API · Gemini · OAuth2 · Webhooks
 
 ---
 
-**[ai email automation](https://github.com/harshita168y/AI-Powered-Email-Automation-Workflow-)** — human-in-the-loop workflow
+### [Exercise Monitor](https://github.com/harshita168y/Exercise-Monitoring-and-Pose-Estimation) — pose estimation on Android
+Android app that tracks exercise reps and movement stages in real time using MediaPipe BlazePose. Supports Hammer Curl, Wall Sit, and Front Arm Raise with biomechanical validation, rep counting, and instant audio feedback. Runs fully on-device with no noticeable latency.
 
-gmail automation that drafts smart replies with gemini, then lets you
-approve / edit / reject before anything gets sent. the whole pipeline runs through
-n8n with webhook triggers. no email goes out without a human seeing it first.
-
-`n8n` `gmail api` `gemini` `oauth2` `webhooks`
+> Kotlin · Android · MediaPipe BlazePose · Computer Vision
 
 ---
 
-**[exercise monitor](https://github.com/harshita168y/Exercise-Monitoring-and-Pose-Estimation)** — pose estimation on android
+## Stack
 
-android app that tracks reps and movement stages in real time using mediapipe blazepose.
-hammer curl, wall sit, front arm raise — with audio feedback if your form slips.
-runs fully on-device, no lag.
-
-`kotlin` `android` `mediapipe blazepose` `computer vision`
-
----
-
-### stats
-
-![stats](https://github-readme-stats.vercel.app/api?username=harshita168y&show_icons=true&hide_border=true&theme=default&hide=stars&count_private=true&hide_title=true)
+**Languages** — C#, Python, Kotlin, TypeScript  
+**Backend** — ASP.NET Core 8, FastAPI, SignalR, Entity Framework Core  
+**AI / ML** — OpenAI, Gemini, RAG, Pinecone, InsightFace, MediaPipe, ML.NET  
+**Data** — PostgreSQL, SQL Server  
+**Tools** — n8n, Firebase, Docker, WebSockets
 
 ---
 
-```
-open to work  ·  backend  ·  ai systems  ·  real-time
-```
+## Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshita168y&show_icons=true&hide_border=true&theme=default&hide=stars&count_private=true&hide_title=true)
